@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.ex {
+    width: 20px;
+    height: 150px;
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    border-radius: 10px;
+    animation: aim 15s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes aim {
+
+    0%{
+        left: 0;
+        height: 150px;
+        background-color: brown;
+    }
+    12.5%{
+        height: 50px;
+    }
+    25%{
+        height: 150px;
+        background-color: yellow;
+
+    }
+    37.5%{
+        height: 50px;
+    }
+    50%{
+        height: 150px;
+        background-color: brown;
+    }
+    63.5%{
+        height: 50px;
+    }
+    75%{
+        height: 150px;
+        background-color: yellow;
+    }
+    87.5%{
+        height: 50px;
+    }
+    100%{
+        left: 100%;
+        height: 150px;
+        background-color: brown;
+    }
+}

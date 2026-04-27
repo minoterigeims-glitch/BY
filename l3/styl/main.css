@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+ul{
+    list-style: none
+}
+menu{
+    background-color: gray;
+    width: 300px;
+    border-radius: 40px;
+}
+li:hover{
+    background-color: aqua;
+}
+li{
+    padding: 20px 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+span{
+    margin-right: 10px;
+}

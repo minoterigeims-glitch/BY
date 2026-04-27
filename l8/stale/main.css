@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat;
+
+}
+
+.aboutbox{
+    background-color: #1A142D ;
+    padding: 19px ;
+    margin-top: 82px;
+    margin-left: 400px;
+    padding-bottom: 40px;
+
+}
+
+main{
+    display: flex;
+    gap: 67px;
+}
+h1 {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.p1{
+   color: white;
+   font-size: 15px;
+   text-align: center;
+}
+
+.iconbox{
+    margin-top: 12px;
+    text-align: center;
+    
+
+}
+
+
+.contbox{
+    margin-top: 82px;
+    margin-right: 500px;
+
+}
+
+.img1{
+    margin: 2px;
+}
+.p2{
+    margin-bottom: 25px;
+}
+p{
+    font-size: 14px;
+}
+
+.h1{
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.red1{
+    color: red;
+    font-weight: bold;
+}
+
+.h2{
+    color: black;
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.li1{
+    color: red;
+    font-weight: bold;
+}
+
+.fotobox{
+    margin-top: 50px;
+    
+}
+
+.foo1{
+    display: flex;
+}
