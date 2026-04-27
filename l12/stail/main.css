@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Laila;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--dk-fond-color);
+    font-size: 26px;
+    font-weight: 600;
+    
+
+}
+
+
+:root{
+    --dk-fond-color: #1698AC;
+    --lt-fond-color: #FFFFFF;
+}
+
+
+
+@font-face {
+    font-family: Laila;
+    src: url(../fond/Laila-Bold.ttf);
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    
+
+}
+
+.logo-box{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo-text{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--dk-fond-color);
+    position: relative;
+    left: -50px;
+
+}
+
+.logo-box,.nav-box{
+    flex: 1;
+}
+
+.nav-item{
+    border: 2px solid var(--dk-fond-color);
+    border-radius: 20px;
+    padding: 2px 28px;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-item:hover{
+    border: 2px solid var(--lt-fond-color);
+    background-color: var(--dk-fond-color);
+}
+
+.nav-link:hover{
+    color: var(--lt-fond-color);
+}
